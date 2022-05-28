@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Site Adı</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1ef0711a29.js" crossorigin="anonymous"></script>
+</head>
+  <body>
+    <!--NavBar Start-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Marka</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#menu">Ana Sayfa</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">Hakkımızda</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#team">Ekibimiz</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#photo">Galeri</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#connect">İletişim</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!--NavBar End-->
+
+    <!--Slider Start-->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100 resimslider" src="img/sl1.jpg" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100 resimslider" src="img/sl2.jpg" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100 resimslider" src="img/sl3.jpg"  alt="Third slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    <!--Slider End-->
+
+    <!--About Start-->
+    <section class="p-5 text-center hakkimizda">
+        <div class="container">
+            <h2 class="mb-5 font-weight-bold">Hakkımızda</h2>
+            <hr class="ayrac">
+            <i class="fa-solid fa-leaf ibeyaz"></i>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                Earum et magni dolores sint laboriosam ducimus dolor 
+                consequatur distinctio odit amet voluptatem sequi soluta 
+                dolore, dolorem fuga maiores ipsam modi optio! 
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                Ipsum nemo voluptatum vero mollitia, harum porro 
+                obcaecati dicta deleniti, laborum commodi id, laboriosam 
+                adipisci dolor repellendus at dolore est quisquam 
+                reprehenderit.</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                Et sapiente veritatis tenetur sequi magni voluptate 
+                autem? Dolorum aperiam molestiae iure? Autem quasi 
+                voluptas aperiam saepe possimus atque a non soluta.</p>
+        </div>
+    </section>
+    <!--About End-->
+    <section class="p-5 text-center ekibimiz">
+        <div class="container">
+            <h2 class="mb-5 font-weight-bold">Ekibimiz</h2>
+            <hr class="ayrac">
+            <i class="fa-solid fa-leaf ibeyaz"></i>
+
+            <div class="card-deck">
+                <div class="row">
+                    <div class="card shadow ekipCard">
+                        <img class="card-img-top" src="img/ekip1.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Mehmet Tekin</h5>
+                          <p class="card-text">Kordinatör</p>
+                        </div>
+                      </div>
+                      <div class="card shadow ekipCard">
+                        <img class="card-img-top" src="img/ekip2.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Mehmet Tekin</h5>
+                          <p class="card-text">Kordinatör</p>
+                        </div>
+                      </div>
+                      <div class="card shadow ekipCard">
+                        <img class="card-img-top" src="img/ekip3.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Mehmet Tekin</h5>
+                          <p class="card-text">Kordinatör</p>
+                        </div>
+                      </div>
+                      <div class="card shadow ekipCard">
+                        <img class="card-img-top" src="img/ekip4.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Mehmet Tekin</h5>
+                          <p class="card-text">Kordinatör</p>
+                        </div>
+                      </div>
+                      <div class="card shadow ekipCard">
+                        <img class="card-img-top" src="img/ekip5.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Mehmet Tekin</h5>
+                          <p class="card-text">Kordinatör</p>
+                        </div>
+                      </div>
+                      <div class="card shadow ekipCard">
+                        <img class="card-img-top" src="img/ekip6.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Mehmet Tekin</h5>
+                          <p class="card-text">Kordinatör</p>
+                        </div>
+                      </div>
+                </div>
+              </div>
+        </div>
+    </section>
+    <!--Team Start-->
+    <!--Team End-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
